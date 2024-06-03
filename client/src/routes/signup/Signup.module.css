@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+.block {
+  position: absolute;
+
+  left: 20vw;
+  top: 38vh;
+  width: 60vw;
+  height: 55vh;
+  background-color: white;
+  border: none;
+}
+
+.id {
+  position: absolute;
+  left: 20vw;
+  width: 20vw;
+  height: 6vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+.pw {
+  position: absolute;
+  left: 20vw;
+  top: 7vh;
+  width: 20vw;
+  height: 6vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+.name {
+  position: absolute;
+  left: 20vw;
+  top: 14vh;
+  width: 20vw;
+  height: 6vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+.studentNumber {
+  position: absolute;
+  left: 20vw;
+  top: 21vh;
+  width: 20vw;
+  height: 6vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+.registerBtn {
+  position: absolute;
+  left: 20vw;
+  top: 30vh;
+  width: 20.5vw;
+  height: 7vh;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 100px;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.registerBtn:hover {
+  background-color: black;
+  color: white;
+}

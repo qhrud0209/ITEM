@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+
+.Img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.Item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "DNFBitBitv2";
+  background-color: white;
+
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 320px;
+  height: 450px;
+  cursor: pointer;
+
+  margin: 10px;
+  padding: 10px;
+}
+.Item:hover {
+  background-color: black;
+  color: white;
+}
+
+.productName {
+  font-size: 2rem;
+  text-align: center;
+
+  width: 300px;
+}
+
+.productLocation {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.block {
+  float: left;
+  position: relative;
+  width: 320px;
+  height: 450px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+}

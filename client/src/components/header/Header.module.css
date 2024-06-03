@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+
+.logo {
+  position: absolute;
+  left: 26vw;
+  top: 1vh;
+  font-size: 3rem;
+
+  font-family: "DNFBitBitv2";
+  cursor: pointer;
+}

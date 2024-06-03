@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+
+.submitButton {
+  cursor: pointer;
+
+  font-family: "DNFBitBitv2";
+  font-size: 1.8rem;
+  background-color: RGB(200, 200, 200);
+  width: 5.5vw;
+  height: 7.4vh;
+
+  border: none;
+}
+
+.submitButton:hover {
+  background-color: black;
+  color: white;
+}
+.searchBar {
+  position: absolute;
+  left: 54vw;
+  top: 5vh;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.searchInput {
+  left: 50vw;
+  width: 30vw;
+  height: 5vh;
+  font-family: "DNFBitBitv2";
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  border: 3px solid #000;
+}
+.searchInput:hover {
+  border: 3.5px solid #000;
+}

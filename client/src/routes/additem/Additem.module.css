@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+
+.block {
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
+  width: 60vw;
+  height: 55vh;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 15px;
+}
+
+.Title {
+  position: absolute;
+  margin-top: 10px;
+  left: 1vw;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.itemName {
+  position: absolute;
+  left: 2vw;
+  top: 10vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.itemLocation {
+  position: absolute;
+  left: 2vw;
+  top: 18vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.itemFunction {
+  position: absolute;
+  left: 2vw;
+  top: 26vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.itemImage {
+  position: absolute;
+  left: 2vw;
+  top: 34vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+
+  color: RGB(120, 120, 120);
+}
+
+.addButton {
+  position: absolute;
+  width: 12vw;
+  left: 24vw;
+  top: 45vh;
+
+  border: 3px solid black;
+  border-radius: 100px;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+.addButton:hover {
+  background-color: black;
+  color: white;
+}
+.input {
+  width: 54vw;
+  font-family: DNFBitBitv2;
+  font-size: 1.8rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: 3px solid #000;
+}

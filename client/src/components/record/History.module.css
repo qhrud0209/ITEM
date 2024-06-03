@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+.history {
+  font-family: DNFBITBITV2;
+  font-size: 1.5rem;
+  left: 6%;
+  width: 96%;
+  height: 96%;
+}

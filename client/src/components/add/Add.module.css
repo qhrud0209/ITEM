@@ -1,0 +1,19 @@
+.AddButton {
+  background-color: white;
+  border: none;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+
+  position: fixed;
+}
+.AddImg {
+  width: 100px;
+  height: 100px;
+}
+
+.AddBtnLocation {
+  position: absolute;
+  top: 88vh;
+  left: 93vw;
+}

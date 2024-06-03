@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+.block {
+  position: absolute;
+  left: 30vw;
+  top: 38vh;
+  width: 40vw;
+  height: 55vh;
+  background-color: white;
+  border: none;
+}
+
+.id {
+  position: absolute;
+  width: 25vw;
+  left: 7.5vw;
+  top: 3vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 10px;
+}
+
+.pw {
+  position: absolute;
+  width: 25vw;
+  left: 7.5vw;
+  top: 11vh;
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  font-weight: 200;
+  border-radius: 10px;
+}
+
+.loginBtn {
+  font-family: DNFBitBitv2;
+  font-size: 2.5rem;
+  background-color: white;
+  border-radius: 100px;
+  width: 26vw;
+  cursor: pointer;
+  position: absolute;
+  left: 7.3vw;
+  top: 20vh;
+}
+.loginBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.message {
+  font-family: DNFBitBitv2;
+  font-size: 1rem;
+  color: RGB(233, 15, 18);
+  background-color: white;
+  border-radius: 100px;
+  width: 26vw;
+  position: absolute;
+  left: 8vw;
+  top: 27vh;
+}
+
+.registerBtn {
+  font-family: DNFBitBitv2;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  width: 5vw;
+  cursor: pointer;
+  position: absolute;
+  left: 28vw;
+  top: 28.7vh;
+}
+.registerBtn:hover {
+  background-color: black;
+  color: white;
+}

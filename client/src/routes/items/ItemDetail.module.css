@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "DNFBitBitv2";
+  font-weight: normal;
+  src: url("../../assets/font/DNFBitBitv2.ttf") format("truetype");
+}
+
+.block {
+  position: absolute;
+  top: 15vh;
+  left: 8vw;
+  width: 80%;
+  height: 80%;
+  border: 5px solid black;
+  border-radius: 80px;
+}
+.IMG {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+
+  width: 470px;
+  height: 470px;
+  border: 2px solid black;
+}
+
+.UseButton {
+  position: absolute;
+  left: 9.5%;
+  top: 78%;
+  border-radius: 100px;
+  width: 25%;
+  height: 15%;
+  font-family: DNFBITBITV2;
+  font-size: 2.5rem;
+  background-color: white;
+}
+.UseButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.productName {
+  position: absolute;
+  left: 45%;
+  top: 0%;
+  font-family: DNFBITBITV2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.productLocation {
+  position: absolute;
+  left: 45%;
+  top: 7%;
+  font-family: DNFBITBITV2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.productFunction {
+  position: absolute;
+  left: 45%;
+  top: 14%;
+  font-family: DNFBITBITV2;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.productRegistrant {
+  position: absolute;
+  left: 4%;
+  top: 70%;
+  font-family: DNFBITBITV2;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.historyBlock {
+  position: absolute;
+  left: 45%;
+  top: 33%;
+  width: 48%;
+  height: 57.5%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.historyUse {
+  position: absolute;
+  font-family: DNFBITBITV2;
+  font-size: 2.5rem;
+  left: 45%;
+  top: 21%;
+  width: 96%;
+  height: 96%;
+}
+
+.history {
+  position: absolute;
+  font-family: DNFBITBITV2;
+  font-size: 1.5rem;
+  left: 3%;
+  width: 96%;
+  height: 96%;
+  display: flex;
+}
