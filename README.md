@@ -1,5 +1,16 @@
 AP 프로그래밍과 문제 해결 수행평가
 
+[실행방법]
+cd server 
+venv\Scripts\activate
+py server.py
+
+새로운 터미널 생성
+cd client
+npm start
+
+
+
 1. 개발 배경 및 필요성
    - 필요한 물품의 위치를 쉽게 알 수 없음. → 찾는 데 많은 시간 소요 + 예산 낭비
    - 과거 선배님이 구매하신 물품의 사용 용도를 알 수 없음 → 예산 낭비
