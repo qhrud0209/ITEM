@@ -1,7 +1,7 @@
 AP 프로그래밍과 문제 해결 수행평가
 
 [실행방법]
-cd server 
+cd server \n
 venv\Scripts\activate
 py server.py
 
