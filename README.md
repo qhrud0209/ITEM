@@ -1,13 +1,12 @@
 AP 프로그래밍과 문제 해결 수행평가
 
 [실행방법]
-cd server \n
-venv\Scripts\activate
-py server.py
-
-새로운 터미널 생성
-cd client
-npm start
+1. cd server
+2. venv\Scripts\activate
+3. py server.py
+4. 새로운 터미널 생성
+5. cd client
+6. npm start
 
 
 
