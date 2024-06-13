@@ -19,8 +19,18 @@ function ItemDetail() {
   const image = location.state.image;
   const registrant = location.state.registrant;
   const registeredDate = location.state.registeredDate;
+  const quantity = location.state.quantity;
 
-  //console.log(pid, productName, loca, func, image, registrant, registeredDate);
+  console.log(
+    pid,
+    productName,
+    loca,
+    func,
+    image,
+    registrant,
+    registeredDate,
+    quantity
+  );
 
   const [histories, setHistories] = useState([]);
 
@@ -93,6 +103,7 @@ function ItemDetail() {
           <p className={styles.productRegistrant}>
             등록인 | {registrant} / 등록 날짜 | {registeredDate}
           </p>
+          <p className={styles.productQuantity}>수량 | {quantity}</p>
         </div>
         <p className={styles.historyUse}>사용 기록</p>
         <ul className={styles.historyBlock}>

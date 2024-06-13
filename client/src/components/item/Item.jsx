@@ -13,6 +13,7 @@ function Item({
   image,
   registrant,
   registeredDate,
+  quantity,
 }) {
   //console.log(pid, productName, func, image, registrant, registeredDate);
 
@@ -41,6 +42,7 @@ function Item({
         image: image,
         registrant: registrant,
         registeredDate: registeredDate,
+        quantity: quantity,
       },
     });
   };

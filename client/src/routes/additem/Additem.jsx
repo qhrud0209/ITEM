@@ -22,6 +22,7 @@ function Additem() {
   const [productImage, setProductImage] = useState(imageData);
   const [registrant, setRegistrant] = useState("");
   const [registeredDate, setRegisteredDate] = useState("");
+  const [quantity, setQuantity] = useState();
 
   const isNotSignin = () => {
     navigate("/signin");
@@ -80,7 +81,8 @@ function Additem() {
       func,
       productImage,
       registrant,
-      registeredDate
+      registeredDate,
+      quantity
     );
 
     const res = await fetch("/product/add", {
@@ -95,6 +97,7 @@ function Additem() {
         image: productImage,
         registrant: registrant,
         registeredDate: formattedDate,
+        quantity: quantity,
       }),
     });
 
@@ -110,6 +113,7 @@ function Additem() {
       setFunc("");
       onClearAttachment();
       setProductImage("null");
+      setQuantity("");
     }
   };
 
@@ -150,7 +154,17 @@ function Additem() {
             onChange={(e) => setFunc(e.target.value)}
           />
         </div>
-
+        <div className={styles.itemQuantity}>
+          <input
+            className={styles.input}
+            type="number"
+            placeholder="수량"
+            name="quantity"
+            min="1"
+            value={quantity}
+            onChange={(e) => setQuantity(e.target.value)}
+          />
+        </div>
         <div className={styles.itemImage}>
           <input
             className={styles.input}

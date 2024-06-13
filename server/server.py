@@ -133,7 +133,7 @@ def add_product():
 
     #print(data)
 
-    cursor.execute('''INSERT INTO items(productName, location, function, productImage, registrant, registeredDate) VALUES(?, ?, ?, ?, ?, ?)''', (data['productName'], data['location'], data['func'], data['image'], data['registrant'], data['registeredDate']))
+    cursor.execute('''INSERT INTO items(productName, location, function, productImage, registrant, registeredDate, quantity) VALUES(?, ?, ?, ?, ?, ?, ?)''', (data['productName'], data['location'], data['func'], data['image'], data['registrant'], data['registeredDate'], data['quantity']))
     data = cursor.fetchall()
 
     conn.commit()

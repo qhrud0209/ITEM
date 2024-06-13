@@ -31,19 +31,25 @@ function ItemsList() {
       <Header />
       <div className={styles.block}>
         {array.map((index) =>
-          items.slice(index * 4, (index + 1) * 4 - 1).map((item) => (
-            //console.log(item[4]),
-            // console.log(btoa(item[4])),
-            <Item
-              pid={item[0]}
-              productName={item[1]}
-              location={item[2]}
-              func={item[3]}
-              img={btoa(item[4]).toString()}
-              registrant={item[5]}
-              registeredDate={item[6]}
-            />
-          ))
+          items
+            .slice(index * 4, (index + 1) * 4 - 1)
+            .map(
+              (item) => (
+                console.log(item[7]),
+                (
+                  <Item
+                    pid={item[0]}
+                    productName={item[1]}
+                    location={item[2]}
+                    func={item[3]}
+                    img={btoa(item[4]).toString()}
+                    registrant={item[5]}
+                    registeredDate={item[6]}
+                    quantity={item[7]}
+                  />
+                )
+              )
+            )
         )}
       </div>
       <Add />
